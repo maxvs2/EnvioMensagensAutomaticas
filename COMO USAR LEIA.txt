@@ -1,0 +1,3 @@
+para usar esse programa, você digita no campo da "mensagem" a mensagem que você quer
+no intervalo você coloca os segundos, que ira mandar a mensagem no intervalo de acordo que você colocou
+para escolher uma campo para enviar a mensagem, basta selecionar o campo de texto e iniciar o bot, que já ira começar a enviar as mensagens
