@@ -1,1 +1,0 @@
-para escolher uma campo para enviar a mensagem, basta selecionar o campo de texto e inicar o bot, que já ira começar a enviar as mensagens
