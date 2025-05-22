@@ -9,6 +9,7 @@ rodando = [False]
 def enviar_mensagens(mensagem, intervalo):
     try:
         janela = gw.getWindowsWithTitle("Discord")[0]  # Detecta a janela do Discord
+        janela = gw.getWindowsWithTitle("programa")[0]  # Detecta a janela do programa
         janela.activate()
         time.sleep(1)  # Aguarda a janela ativar
 
@@ -20,6 +21,7 @@ def enviar_mensagens(mensagem, intervalo):
 
     except IndexError:
         print("Janela do Discord não encontrada. Abra o Discord antes de iniciar.")
+        print("Janela do Programa não encontrada. Abra o programa antes de iniciar.")
 
 def iniciar():
     mensagem = entrada_mensagem.get()
@@ -40,6 +42,7 @@ def parar():
 # Interface gráfica
 janela = tk.Tk()
 janela.title("Bot de Mensagens Discord")
+janela.title("Bot de Mensagens programa")
 
 tk.Label(janela, text="Mensagem:").pack()
 entrada_mensagem = tk.Entry(janela, width=40)
